@@ -1,0 +1,9 @@
+body{
+    background-image: url('uploads/Background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+footer{
+    -ms-flex-align: baseline;
+}
