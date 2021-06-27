@@ -110,9 +110,9 @@
     display: block;
     text-align: left;
   }
-  .topnav.responsive  . dropdown {float: none;}
-  .topnav.responsive . dropdown-content {position: relative;}
-  .topnav.responsive . dropdown .dropbtn {
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
     display: block;
     width: 100%;
     text-align: left;
@@ -123,15 +123,19 @@
     <a href="#home" class="active">Home</a>
     <a href="#news">News</a>
     <a href="#contact">Contact</a>
-    <div class="grades">
-      <button class="dropbtn">Grades
+    <div class="dropdown">
+      <button class="dropbtn">Dropdown
         <i class="fa fa-caret-down"></i>
       </button>
       <div class="dropdown-content">
         <a href="#">Grade 10</a>
         <a href="#">Grade 11</a>
-        <a href="#">Grade 12 <div class="topnav" id="myTopnav">
-    <style>
+        <a href="#">Grade 12</a>
+      </div>
+    </div>
+    <a href="#about">About</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+  </div>
       
     <a href="#about">About</a>
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
