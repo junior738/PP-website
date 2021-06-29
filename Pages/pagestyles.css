@@ -34,8 +34,9 @@ a{
   
   /* Add an active class to highlight the current page */
   .active {
-    background-color: blue;
+    background-color: gray;
     color: white;
+    border-radius: 0.5rem;
   }
   
   /* Hide the link that should open and close the topnav on small screens */
@@ -86,6 +87,7 @@ a{
   .dropdown:hover .dropbtn {
     background-color: #555;
     color: white;
+    border-radius: 0.5rem;
   }
   
   /* Add a grey background to dropdown links on hover */
