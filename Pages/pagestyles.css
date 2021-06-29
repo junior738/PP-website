@@ -1,4 +1,5 @@
 body{
+    font-family: 'Rubik', sans-serif;
     text-align: center;
     font-size: 26px;
     background-color: antiquewhite; 
@@ -12,4 +13,5 @@ a{
     color: Black;
     padding-bottom: 10px;
 }
+
 
