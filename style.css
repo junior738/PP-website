@@ -130,3 +130,8 @@ body {
     text-align: left;
   }
 }
+
+.Youtube a{
+  text-decoration: none;
+  color: rgb(41, 39, 39);
+}
