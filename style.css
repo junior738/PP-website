@@ -1,3 +1,6 @@
+:root{
+  font-size: 16px;
+}
 body { 
   font-family: 'Rubik', sans-serif;
   background-image: url("uploads/Background.jpg");
@@ -134,4 +137,13 @@ body {
 .Youtube a{
   text-decoration: none;
   color: rgb(41, 39, 39);
+}
+
+.qoute{
+  background-color: white;
+  margin-top: 7rem;
+  padding-top: 7rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 9rem;
 }
